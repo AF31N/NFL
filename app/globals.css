@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+
+@layer base{
+    body{
+        @apply font-primary bg-primary text-white leading-loose;
+    }
+    .h1{
+        @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold
+    }
+    .h2{
+        @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold
+    }
+    .h3{
+        @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold
+    }
+}
+
+html, body {
+    overflow-x: hidden;  /* Prevent horizontal scroll */
+    height: 100%;         /* Ensure the height is 100% of the viewport */
+  }  
+
+
+.custom-filter {
+  filter: grayscale(70%) brightness(95%);
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: wheat;
+
+  }
+
+  .text-outline{
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+  }
+  
