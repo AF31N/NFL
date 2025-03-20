@@ -8,7 +8,7 @@ const jetBrainsMono = JetBrains_Mono({ subsets: ["latin"], weight: ['100', '200'
 
 export const metadata = {
   title: "Noufal's | Personal Portfolio",
-  description: "Abis is a full-stack developer with 2 years experience.",
+  description: "Noufal Business Consultant With 10+ Years Of Experience.",
 };
 
 export default function RootLayout({ children }) {
